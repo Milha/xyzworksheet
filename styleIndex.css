@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:#efefef;
+    color: #2d303a;
+}
+
+.container {
+    margin: 5px;
+}
+
+nav {
+    background-color: #80deea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1 {
+    font-size: 2.5em;
+}
