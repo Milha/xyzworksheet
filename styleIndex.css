@@ -30,3 +30,8 @@ nav h1 {
     /* justify-content: flex-start; */
 }
 
+@media(max-width: 1000px) {
+    .sortable-conatiner {
+       display: none;
+    }
+}
