@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: #80deea;
+    background-color: #00ccff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,3 +22,11 @@ nav {
 nav h1 {
     font-size: 2.5em;
 }
+
+
+.sortable-conatiner {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+
