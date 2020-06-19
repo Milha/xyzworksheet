@@ -88,3 +88,12 @@ body {
 .check-btn:focus {
     outline: none;
 }
+
+button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
