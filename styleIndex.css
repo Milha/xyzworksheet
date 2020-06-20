@@ -9,6 +9,10 @@ body {
 
 .container {
     margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    /* border: solid ; */
 }
 
 nav {
