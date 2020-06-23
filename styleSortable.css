@@ -97,3 +97,12 @@ button {
     cursor: pointer;
     margin-top: 5px;
 }
+
+.back-to-main {
+    margin-top: 40px;
+}
+
+.back-to-main a {
+    text-decoration: none;
+    color: var(--text-color);
+}
