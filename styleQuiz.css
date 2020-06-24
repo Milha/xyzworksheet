@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question {
+    display: grid;
+    flex-direction: row;
+}
+
+.color1 {
+    margin-left: 25px;
+    background: red;
+    height: 20px;
+    width: 80px;
+}
+
+.color2 {
+    margin-left: 25px;
+    background: orange;
+    height: 20px;
+    width: 80px;
+}
+
+.color3 {
+    margin-left: 25px;
+    background: black;
+    height: 20px;
+    width: 80px;
+}
+
+.color4 {
+    margin-left: 25px;
+    background: pink;
+    height: 20px;
+    width: 80px;
+}
+
+.color5 {
+    margin-left: 25px;
+    background: grey;
+    height: 20px;
+    width: 80px;
+}
+
+.color6 {
+    margin-left: 25px;
+    background: green;
+    height: 20px;
+    width: 80px;
+}
+
+.color7 {
+    margin-left: 25px;
+    background: yellow;
+    height: 20px;
+    width: 80px;
+}
+
+.color8 {
+    margin-left: 25px;
+    background: purple;
+    height: 20px;
+    width: 80px;
+}
+
+.color9 {
+    margin-left: 25px;
+    background: blue;
+    height: 20px;
+    width: 80px;
+}
+
+.color10 {
+    margin-left: 25px;
+    background: gold;
+    height: 20px;
+    width: 80px;
+}
+
+.color1 {
+    margin-left: 25px;
+    background: red;
+    height: 20px;
+    width: 80px;
+}
+
+.color1 {
+    margin-left: 25px;
+    background: red;
+    height: 20px;
+    width: 80px;
+}
+
+.color1 {
+    margin-left: 25px;
+    background: red;
+    height: 20px;
+    width: 80px;
+}
+
+.color1 {
+    margin-left: 25px;
+    background: red;
+    height: 20px;
+    width: 80px;
+}
