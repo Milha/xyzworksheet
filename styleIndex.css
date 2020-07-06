@@ -10,9 +10,21 @@ body {
 .container {
     margin: 5px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 100px;
-    /* border: solid ; */
+    /* border: solid; */
+}
+
+.boxes {
+    width: 450px;
+    /* height: 300px; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: dotted red; */
 }
 
 nav {
@@ -21,6 +33,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 50px;
 }
 
 nav h1 {
@@ -32,15 +45,9 @@ nav h1 {
     flex-direction: column;
 }
 
-.quiz-container {
-    width: 450px;
-    /* height: 300px; */
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+/* .quiz-container {
+    
+} */
 
 .sortable-conatiner {
     width: 450px;
