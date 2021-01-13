@@ -70,8 +70,50 @@ a:hover {
     text-decoration: none;
 }
 
+#navBurger {
+    list-style: none;
+    color: #2d303a;
+    border-radius: 5px;
+    align-items: center;
+    display: block;
+    /* position: fixed; */
+    right: 60px;
+    top: 62px;
+    display: inline-flex;
+}
+
+#navBurger li {
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#navBurger li:hover {
+    cursor: pointer;
+    background: #efefef;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 10px;
+}
+
 @media(max-width: 1000px) {
     .sortable-conatiner {
        display: none;
+    }
+
+    /* #navBurger {
+        display: block;
+        height: 100%;
+    } */
+
+    #navBurger li {
+        cursor: pointer;
+        border-radius: 2px;
+        margin: 5px;
+        padding: 10px;
+        position: fixed;
+        right: 60px;
+        top: 62px;
     }
 }
