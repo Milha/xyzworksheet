@@ -70,6 +70,7 @@ a:hover {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .navBurger {
     overflow: hidden;
     background: #333;
@@ -98,14 +99,19 @@ a:hover {
     color: white;
 }
 
+=======
+>>>>>>> parent of 34bcd20... Start navBurger
 @media(max-width: 1000px) {
     .sortable-conatiner {
        display: none;
     }
+<<<<<<< HEAD
 
     /* #navBurger {
         display: block;
         height: 100%;
     } */
 
+=======
+>>>>>>> parent of 34bcd20... Start navBurger
 }
