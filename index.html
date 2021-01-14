@@ -36,9 +36,12 @@
       <h1>XYZ Worksheet</h1>
       <h4>Easy English learn</h4>
       <div class="navBurger">
-        <a href="#quiz">Quiz</a>
-        <a href="#sentences">Sentences</a>
-        <a href="#grammar">Grammar</a>
+        <div id="myLinks">
+          <a href="#quiz">Quiz</a>
+          <a href="#sentences">Sentences</a>
+          <a href="#grammar">Grammar</a>
+        </div>
+        
       </div>
     </nav>
     <div class="container" id="container">
@@ -85,6 +88,17 @@
 
     <!-- Scripts -->
     
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+          } else {
+        x.style.display = "block";
+      }
+  
+    </script>
+
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
